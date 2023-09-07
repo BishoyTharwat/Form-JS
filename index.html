@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Create Account</h2>
+      </div>
+      <div class="form" id="form">
+        <form action="">
+          <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="enter your name" id="username" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <p class="error-msg">Error msg</p>
+          </div>
+          <div class="form-control ">
+            <label>Email</label>
+            <input type="email" placeholder="enter your email" id="email" />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <p class="error-msg">Error msg</p>
+          </div>
+          <div class="form-control">
+            <label>Password</label>
+            <input
+              type="password"
+              placeholder="enter your password"
+              id="password"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <p class="error-msg" id="error-msg">Error msg</p>
+          </div>
+          <div class="form-control">
+            <label>Password check</label>
+            <input
+              type="password"
+              placeholder="enter your password again"
+              id="password2"
+            />
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-exclamation"></i>
+            <p class="error-msg">Error msg</p>
+          </div>
+          <button id="btn" type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
